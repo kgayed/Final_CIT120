@@ -63,7 +63,7 @@ function homePage() {
     var wrapper = document.body.querySelector(".wrapper");
     wrapper.innerHTML = "";
     var header = document.createElement("h1");
-    header.innerHTML = "Home Page";
+    header.innerHTML = "View Grade";
 
     wrapper.appendChild(header);
 }
@@ -74,11 +74,9 @@ function aboutPage() {
     wrapper.innerHTML = "";
 
     var header = document.createElement("h1");
-    header.innerHTML = "About Page";
+    header.innerHTML = "Add Grade";
     var header2= document.createElement("h3")
-    header2.innerHTML="Karin";
     wrapper.appendChild(header);
-    wrapper.appendChild(header2);
 
 
     var responseDive2 = document.createElement("div")
